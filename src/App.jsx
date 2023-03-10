@@ -7,35 +7,35 @@ function App() {
     {
       head: "Free",
       cost: "$0",
-      user: "single User",
-      storages: "5Gb storage",
-      access: "Community Access",
-      projects: "Unlimited Private Projects",
-      support: "Dedicated Phone Support",
-      domain: "Free Subdomain",
-      report: "Monthly Status Reports",
+      user: " 🔹single User",
+      storages: "🔹5Gb storage",
+      access: "🔹Community Access",
+      projects: "❌Unlimited Private Projects",
+      support: "❌Dedicated Phone Support",
+      domain: "❌Free Subdomain",
+      report: "❌Monthly Status Reports",
     },
     {
       head: "Plus",
       cost: "$9",
-      user: "5 Users",
-      storages: "50GB Storage",
-      access: "Community Access",
-      projects: "Unlimited Private Projects",
-      support: "Dedicated Phone Support",
-      domain: "Free Subdomain",
-      report: "Monthly Status Reports",
+      user: "🔹5 Users",
+      storages: "🔹50GB Storage",
+      access: "🔹Community Access",
+      projects: "🔹Unlimited Private Projects",
+      support: "🔹Dedicated Phone Support",
+      domain: "❌Free Subdomain",
+      report: "❌Monthly Status Reports",
     },
     {
       head: "Pro",
       cost: "$49",
-      user: "Unlimited Users",
-      storages: "150GB Storage",
-      access: "Community Access",
-      projects: "Unlimited Private Projects",
-      support: "Dedicated Phone Support",
-      domain: "Free Subdomain",
-      report: "Monthly Status Reports",
+      user: "🔹Unlimited Users",
+      storages: "🔹150GB Storage",
+      access: "🔹Community Access",
+      projects: "🔹Unlimited Private Projects",
+      support: "🔹Dedicated Phone Support",
+      domain: "🔹Free Subdomain",
+      report: "🔹Monthly Status Reports",
     },
   ];
   return (
@@ -67,13 +67,13 @@ function Pricelist({ props }) {
           <small>/month</small>
         </div>
         <div className="card-body">
-          <p>🔹{props.user}</p>
-          <p>🔹{props.storages}</p>
-          <p>🔹{props.access}</p>
-          <p>🔹{props.projects}</p>
-          <p>🔹{props.support}</p>
-          <p>🔹{props.domain}</p>
-          <p>🔹{props.report}</p>
+          <p>{props.user}</p>
+          <p>{props.storages}</p>
+          <p>{props.access}</p>
+          <p>{props.projects}</p>
+          <p>{props.support}</p>
+          <p>{props.domain}</p>
+          <p>{props.report}</p>
           <div className="d-grid">
             <button className="btn btn-primary">Button</button>
           </div>
